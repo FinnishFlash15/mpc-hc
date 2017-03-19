@@ -1,13 +1,13 @@
 # MPC-HC - Strings extracted from string tables
-# Copyright (C) 2002 - 2016 see Authors.txt
+# Copyright (C) 2002 - 2017 see Authors.txt
 # This file is distributed under the same license as the MPC-HC package.
 # Translators:
 # Samir Gutić <amicussamir@amicus.ba>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MPC-HC\n"
-"POT-Creation-Date: 2016-05-28 19:41:21+0000\n"
-"PO-Revision-Date: 2016-05-29 17:42+0000\n"
+"POT-Creation-Date: 2016-10-17 00:35:36+0000\n"
+"PO-Revision-Date: 2016-11-06 08:38+0000\n"
 "Last-Translator: Samir Gutić <amicussamir@amicus.ba>\n"
 "Language-Team: Bosnian (Bosnia and Herzegovina) (http://www.transifex.com/mpc-hc/mpc-hc/language/bs_BA/)\n"
 "MIME-Version: 1.0\n"
@@ -3592,6 +3592,10 @@ msgctxt "IDS_SUBTITLE_RENDERER_XY_SUB_FILTER"
 msgid "XySubFilter"
 msgstr "XySubFilter"
 
+msgctxt "IDS_SUBTITLE_RENDERER_ASS_FILTER"
+msgid "AssFilter"
+msgstr ""
+
 msgctxt "IDS_SUBDL_DLG_PROVIDER_COL"
 msgid "Provider"
 msgstr "Dobavljač usluge"
@@ -3789,8 +3793,8 @@ msgid "/dvdpos T#C\tStart playback at title T, chapter C"
 msgstr "/dvdpos T#C\tPokreni reprodukciju od naslova T, poglavlja C"
 
 msgctxt "IDS_CMD_DVDPOS_TIME"
-msgid "/dvdpos T#hh:mm:ss\tStart playback at title T, position hh:mm:ss"
-msgstr "/dvdpos T#hh:mm:ss\tPokreni reprodukciju od naslova , pozicije hh:mm:ss"
+msgid "/dvdpos T#P\tStart playback at title T, position P (hh:mm:ss)"
+msgstr "/dvdpos T#P\tPokreni reprodukciju na poglavlju T, pozicija P (hh:mm:ss)"
 
 msgctxt "IDS_CMD_CD"
 msgid "/cd\t\tLoad all the tracks of an Audio CD or (S)VCD,\n\t\t\"pathname\" means the drive path (optional)"
@@ -3958,5 +3962,5 @@ msgstr "Veličina podrazumijevane alatne trake u pikselima."
 
 msgctxt "IDS_PPAGEADVANCED_USE_LEGACY_TOOLBAR"
 msgid "Use legacy toolbar instead of new vectorized one."
-msgstr ""
+msgstr "Koristi staru alatnu traku umjesto nove vektorizovane."
 

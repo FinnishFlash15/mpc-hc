@@ -1,5 +1,5 @@
 # MPC-HC - Strings extracted from menus
-# Copyright (C) 2002 - 2016 see Authors.txt
+# Copyright (C) 2002 - 2017 see Authors.txt
 # This file is distributed under the same license as the MPC-HC package.
 # Translators:
 # Jatyrael <cbf_x@hotmail.com>, 2014
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MPC-HC\n"
 "POT-Creation-Date: 2016-01-17 21:31:34+0000\n"
-"PO-Revision-Date: 2016-03-16 16:06+0000\n"
+"PO-Revision-Date: 2016-11-24 12:43+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/mpc-hc/mpc-hc/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -96,7 +96,7 @@ msgstr "&Afslut"
 
 msgctxt "POPUP"
 msgid "&View"
-msgstr "&Vis"
+msgstr "V&is"
 
 msgctxt "ID_VIEW_CAPTIONMENU"
 msgid "Caption&&Menu"
@@ -200,7 +200,7 @@ msgstr "&Vis statistik"
 
 msgctxt "ID_VIEW_OSD_DISPLAY_TIME"
 msgid "Display Current T&ime"
-msgstr "Vis nuværende t&id"
+msgstr "Vis aktuelle t&id"
 
 msgctxt "ID_VIEW_OSD_SHOW_FILENAME"
 msgid "Show &File Name"
@@ -236,7 +236,7 @@ msgstr "10-bit &RGB-output"
 
 msgctxt "ID_VIEW_FORCEINPUTHIGHCOLORRESOLUTION"
 msgid "Force 10-bit RGB &Input"
-msgstr "Gennemtving 10-bit RGB &input"
+msgstr "Gennemtving 10-bit RGB-&input"
 
 msgctxt "ID_VIEW_FULLFLOATINGPOINTPROCESSING"
 msgid "&Full Floating Point Processing"
@@ -444,7 +444,7 @@ msgstr "&Korrigér monitor/skrivebord h-b-forskelle"
 
 msgctxt "POPUP"
 msgid "Pa&n&&Scan"
-msgstr "Pa&norering og scanning"
+msgstr "Pa&norering og skanning"
 
 msgctxt "ID_VIEW_INCSIZE"
 msgid "&Increase Size"
@@ -696,7 +696,7 @@ msgstr "&Søg efter opdateringer"
 
 msgctxt "ID_HELP_SHOWCOMMANDLINESWITCHES"
 msgid "&Command Line Switches"
-msgstr "&Kommandolinjeparametre"
+msgstr "&Kommandolinjekontakter"
 
 msgctxt "ID_HELP_TOOLBARIMAGES"
 msgid "Download &Toolbar Images"

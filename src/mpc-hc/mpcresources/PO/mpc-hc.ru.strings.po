@@ -1,5 +1,5 @@
 # MPC-HC - Strings extracted from string tables
-# Copyright (C) 2002 - 2016 see Authors.txt
+# Copyright (C) 2002 - 2017 see Authors.txt
 # This file is distributed under the same license as the MPC-HC package.
 # Translators:
 # Alexander Gorishnyak <kefir500@gmail.com>, 2014
@@ -7,10 +7,14 @@
 # birkoff <birkoff.anarchist@gmail.com>, 2015
 # Evgeniy Kupras <zheka20012@yandex.ru>, 2016
 # Ilya, 2015
+# iron86 <serejka@email.ua>, 2016
+# Ivan Moškin <driver37rus@yandex.ru>, 2016
+# Kirill <stryaponoff@gmail.com>, 2016
 # Pavel Otchertsov <pavel.otchertsov@gmail.com>, 2015
+# Rento Nakamura <rentonakamura@gmail.com>, 2017
 # sayanvd <sayanvd@yandex.ru>, 2014-2015
 # Sergey <player54@mail.ru>, 2015-2016
-# stryaponoff <stryaponoff@gmail.com>, 2014,2016
+# Kirill <stryaponoff@gmail.com>, 2014,2016
 # SmilyCarrot <twisted-transistor@yandex.ru>, 2014-2015
 # Underground78, 2014
 # Victor Bychek, 2015-2016
@@ -18,9 +22,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MPC-HC\n"
-"POT-Creation-Date: 2016-05-28 19:41:21+0000\n"
-"PO-Revision-Date: 2016-05-29 08:19+0000\n"
-"Last-Translator: JellyFrog\n"
+"POT-Creation-Date: 2016-10-17 00:35:36+0000\n"
+"PO-Revision-Date: 2017-01-17 14:07+0000\n"
+"Last-Translator: Rento Nakamura <rentonakamura@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/mpc-hc/mpc-hc/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2578,7 +2582,7 @@ msgstr "Усиление громкости - Max"
 
 msgctxt "IDS_USAGE"
 msgid "Usage: mpc-hc.exe \"pathname\" [switches]"
-msgstr ""
+msgstr "Использование: mpc-hc.exe \"путь\" [ключи]"
 
 msgctxt "IDS_UNKNOWN_SWITCH"
 msgid "Unrecognized switch(es) found in command line string: \n\n"
@@ -3604,6 +3608,10 @@ msgctxt "IDS_SUBTITLE_RENDERER_XY_SUB_FILTER"
 msgid "XySubFilter"
 msgstr "XySubFilter"
 
+msgctxt "IDS_SUBTITLE_RENDERER_ASS_FILTER"
+msgid "AssFilter"
+msgstr ""
+
 msgctxt "IDS_SUBDL_DLG_PROVIDER_COL"
 msgid "Provider"
 msgstr "Провайдер"
@@ -3618,7 +3626,7 @@ msgstr "Загрузки"
 
 msgctxt "IDS_SUBDL_DLG_SCORE_COL"
 msgid "Score"
-msgstr ""
+msgstr "Счет"
 
 msgctxt "IDS_SUBDL_DLG_FAILED"
 msgid "Online subtitles search failed."
@@ -3762,213 +3770,213 @@ msgstr "Запрос поддерживаемых языков..."
 
 msgctxt "IDS_SUB_CREDENTIALS_ERROR"
 msgid "Failed to log in on \"%S\" with username \"%S\".\n\nPlease enter the correct username and password or reset the credentials to log in as anonymous user."
-msgstr ""
+msgstr "Не удалось авторизоваться в \"%S\" с именем пользователя \"%S\".\n\nПожалуйста, введите верное имя пользователя и пароль или выполните сброс учетных данных для входа в систему в качестве анонимного пользователя."
 
 msgctxt "IDS_SUB_AUTODL_IGNORE_TOOLTIP"
 msgid "Automatic search and download will be disabled for all media files whose path contains any of the patterns entered here.\nFor example, type: \"private dir\\videos|work\\\"."
-msgstr ""
+msgstr "Автоматический поиск и загрузка будут отключены для всех медиа-файлов, путь которых содержит любой из путей, введенных здесь.\nНапример, \"Личная папка\\Видео\\Работа\"."
 
 msgctxt "IDS_CMD_PATHNAME"
 msgid "\"pathname\"\tThe main file or directory to be loaded\n\t\t(wildcards allowed, \"-\" denotes standard input)"
-msgstr ""
+msgstr "«путь»\tБудет загружен файл или каталог\n\t\t(допускаются wildcards, «-» обозначает стандартный ввод)"
 
 msgctxt "IDS_CMD_DUB"
 msgid "/dub \"dubname\"\tLoad an additional audio file"
-msgstr ""
+msgstr "/dub \"dubname\"⇥Загрузить дополнительный звуковой файл"
 
 msgctxt "IDS_CMD_DUBDELAY"
 msgid "/dubdelay \"file\"\tLoad an additional audio file shifted with XXms\n\t\t(if the file contains \"...DELAY XXms...\")"
-msgstr ""
+msgstr "/dubdelay \"имя файла\" - Загрузка дополнительного аудио с ММ:сс (Если файл содержит информацию \"Задержка с минута:секунда\")"
 
 msgctxt "IDS_CMD_D3DFS"
 msgid "/d3dfs\t\tStart rendering in D3D fullscreen mode"
-msgstr ""
+msgstr "/d3dfs\t\tРендеринг в полноэкранном D3D-режиме"
 
 msgctxt "IDS_CMD_SUB"
 msgid "/sub \"subname\"\tLoad an additional subtitle file"
-msgstr ""
+msgstr "/sub \"subname\"⇥Загрузить дополнительный файл субтитров"
 
 msgctxt "IDS_CMD_FILTER"
 msgid "/filter \"filtername\"\tLoad DirectShow filters from a dynamic link library (wildcards allowed)"
-msgstr ""
+msgstr "/filter «имяфильтра»\tЗагрузить фильтры DirectShow из внешней библиотеки (допускаются wildcards)"
 
 msgctxt "IDS_CMD_DVD"
 msgid "/dvd\t\tRun in DVD mode, \"pathname\" means the DVD folder (optional)"
-msgstr ""
+msgstr "/dvd\t\tЗапуск в режиме DVD, «путь» указывает путь к папке DVD (необязательный)"
 
 msgctxt "IDS_CMD_DVDPOS_TC"
 msgid "/dvdpos T#C\tStart playback at title T, chapter C"
-msgstr ""
+msgstr "/dvdpos T#C\tЗапустить воспроизведение части T, главы C"
 
 msgctxt "IDS_CMD_DVDPOS_TIME"
-msgid "/dvdpos T#hh:mm:ss\tStart playback at title T, position hh:mm:ss"
-msgstr ""
+msgid "/dvdpos T#P\tStart playback at title T, position P (hh:mm:ss)"
+msgstr "/dvdpos T#P\tЗапустить воспроизведение части T, позиции P (hh:mm:ss)"
 
 msgctxt "IDS_CMD_CD"
 msgid "/cd\t\tLoad all the tracks of an Audio CD or (S)VCD,\n\t\t\"pathname\" means the drive path (optional)"
-msgstr ""
+msgstr "/cd\t\tЗагрузить все треки аудио CD или (S)VCD,\n\t\t«путь» указывает путь к диску (необязательный)"
 
 msgctxt "IDS_CMD_DEVICE"
 msgid "/device\t\tOpen the default video device"
-msgstr ""
+msgstr "/device⇥⇥Открыть видео устройство по умолчанию"
 
 msgctxt "IDS_CMD_OPEN"
 msgid "/open\t\tOpen the file, don't automatically start playback"
-msgstr ""
+msgstr "/open\t\tОткрыть файл, но не начинать воспроизведение"
 
 msgctxt "IDS_CMD_PLAY"
 msgid "/play\t\tStart playing the file as soon the player is launched"
-msgstr ""
+msgstr "/play\t\tНачать воспроизведение файла сразу после запуска плеера"
 
 msgctxt "IDS_CMD_CLOSE"
 msgid "/close\t\tClose the player after playback (only works when used with /play)"
-msgstr ""
+msgstr "/close\t\tЗакрыть плеер после окончания воспроизведения (работает только в совокупности с /play)"
 
 msgctxt "IDS_CMD_SHUTDOWN"
 msgid "/shutdown\tShutdown the operating system after playback"
-msgstr ""
+msgstr "/shutdown\tВыключить компьютер после окончания воспроизведения"
 
 msgctxt "IDS_CMD_STANDBY"
 msgid "/standby\t\tPut the operating system in standby mode after playback"
-msgstr ""
+msgstr "/standby\t\tПеревести компьютер в спящий режим после окончания воспроизведения"
 
 msgctxt "IDS_CMD_HIBERNATE"
 msgid "/hibernate\tHibernate operating system after playback"
-msgstr ""
+msgstr "/hibernate\tГибернация компьютера после окончания воспроизведения"
 
 msgctxt "IDS_CMD_LOGOFF"
 msgid "/logoff\t\tLog off after playback"
-msgstr ""
+msgstr "/logoff\t\tЗавершить сеанс после окончания воспроизведения"
 
 msgctxt "IDS_CMD_LOCK"
 msgid "/lock\t\tLock workstation after playback"
-msgstr ""
+msgstr "/lock\t\tЗаблокировать компьютер после окончания воспроизведения"
 
 msgctxt "IDS_CMD_MONITOROFF"
 msgid "/monitoroff\tTurn off the monitor after playback"
-msgstr ""
+msgstr "/monitoroff\tВыключить монитор после окончания воспроизведения"
 
 msgctxt "IDS_CMD_PLAYNEXT"
 msgid "/playnext\t\tOpen next file in the folder after playback"
-msgstr ""
+msgstr "/playnext\t\tОткрыть следующий файл в папке после окончания воспроизведения"
 
 msgctxt "IDS_CMD_FULLSCREEN"
 msgid "/fullscreen\tStart in fullscreen mode"
-msgstr ""
+msgstr "/fullscreen\tЗапуск в полноэкранном режиме"
 
 msgctxt "IDS_CMD_MINIMIZED"
 msgid "/minimized\tStart in minimized mode"
-msgstr ""
+msgstr "/minimized\tЗапуск в минимизированном режиме"
 
 msgctxt "IDS_CMD_NEW"
 msgid "/new\t\tUse a new instance of the player"
-msgstr ""
+msgstr "/new\t\tОткрыть плеер в новом окне"
 
 msgctxt "IDS_CMD_ADD"
 msgid "/add\t\tAdd \"pathname\" to playlist, can be combined with /open and /play"
-msgstr ""
+msgstr "/add\t\tДобавить «путь» в плейлист, может сочетаться с /open и /play"
 
 msgctxt "IDS_CMD_RANDOMIZE"
 msgid "/randomize\tRandomize the playlist"
-msgstr ""
+msgstr "/randomize\tПлейлист в случайном порядке"
 
 msgctxt "IDS_CMD_REGVID"
 msgid "/regvid\t\tCreate file associations for video files"
-msgstr ""
+msgstr "/regvid⇥⇥Создать ассоциации файлов для видео файлов"
 
 msgctxt "IDS_CMD_REGAUD"
 msgid "/regaud\t\tCreate file associations for audio files"
-msgstr ""
+msgstr "/regaud⇥⇥Создать ассоциации файлов для аудио файлов"
 
 msgctxt "IDS_CMD_REGPL"
 msgid "/regpl\t\tCreate file associations for playlist files"
-msgstr ""
+msgstr "/regpl⇥⇥Создать ассоциации файлов для плейлистов"
 
 msgctxt "IDS_CMD_REGALL"
 msgid "/regall\t\tCreate file associations for all supported file types"
-msgstr ""
+msgstr "/regall⇥⇥Создать ассоциации файлов для всех поддерживаемых форматов"
 
 msgctxt "IDS_CMD_UNREGALL"
 msgid "/unregall\t\tRemove all file associations"
-msgstr ""
+msgstr "/unregall⇥⇥Удалить все ассоциации файлов"
 
 msgctxt "IDS_CMD_START"
 msgid "/start ms\t\tStart playing at \"ms\" (= milliseconds)"
-msgstr ""
+msgstr "/start ms\t\tНачать воспроизвдение с \"ms\" (= миллисекунды)"
 
 msgctxt "IDS_CMD_STARTPOS"
 msgid "/startpos hh:mm:ss\tStart playing at position hh:mm:ss"
-msgstr ""
+msgstr "/startpos hh:mm:ss\tНачать воспроизвдение с позиции hh:mm:ss"
 
 msgctxt "IDS_CMD_FIXEDSIZE"
 msgid "/fixedsize w,h\tSet a fixed window size"
-msgstr ""
+msgstr "/fixedsize w,h\tУстановить фиксированный размер окна"
 
 msgctxt "IDS_CMD_MONITOR"
 msgid "/monitor N\tStart player on monitor N, where N starts from 1"
-msgstr ""
+msgstr "/monitor N\tОткрыть плеер на мониторе N, где N начинается с 1"
 
 msgctxt "IDS_CMD_AUDIORENDERER"
 msgid "/audiorenderer N\tStart using audiorenderer N, where N starts from 1 (see \"Output\" settings)"
-msgstr ""
+msgstr "/audiorenderer N\tИспользовать рендеринг N, где N начинается с 1 (см. настройки вывода)"
 
 msgctxt "IDS_CMD_SHADERPRESET"
 msgid "/shaderpreset \"Pr\"\tStart using \"Pr\" shader preset"
-msgstr ""
+msgstr "/shaderpreset \"Pr\"\tИспользовать предустановки шейдеров «Pr»"
 
 msgctxt "IDS_CMD_PNS"
 msgid "/pns \"name\"\tSpecify Pan&Scan preset name to use"
-msgstr ""
+msgstr "/pns \"имя файла\" - Определяют панорамирование и сканирование заданное к использованию имени файла."
 
 msgctxt "IDS_CMD_ICONASSOC"
 msgid "/iconsassoc\tReassociate format icons"
-msgstr ""
+msgstr "/iconsassoc - Конвертирование формата иконок."
 
 msgctxt "IDS_CMD_NOFOCUS"
 msgid "/nofocus\t\tOpen MPC-HC in background"
-msgstr ""
+msgstr "/nofocus⇥⇥Открыть MPC-HC в фоне"
 
 msgctxt "IDS_CMD_WEBPORT"
 msgid "/webport N\tStart web interface on specified port"
-msgstr ""
+msgstr "/webport N(Номер порта) - Использование веб-интерфейса по специальному порту."
 
 msgctxt "IDS_CMD_DEBUG"
 msgid "/debug\t\tShow debug information in OSD"
-msgstr ""
+msgstr "/debug - Показать информацию об отладке в экранном меню."
 
 msgctxt "IDS_CMD_NOCRASHREPORTER"
 msgid "/nocrashreporter\tDisable the crash reporter"
-msgstr ""
+msgstr "/nocrashreporter⇥Отключить отправку отчетов об аварийном завершении программы"
 
 msgctxt "IDS_CMD_SLAVE"
 msgid "/slave \"hWnd\"\tUse MPC-HC as slave"
-msgstr ""
+msgstr "/slave \"hWnd\" - Использовать MPC-HC в качестве дополнительного устройства."
 
 msgctxt "IDS_CMD_HWGPU"
 msgid "/hwgpu \"index\"\tSet the index of the GPU used for hardware decoding.\n\t\tOnly available for CUVID and DXVA2 (copy-back)"
-msgstr ""
+msgstr "/hwgpu \"индекс\" - Использование индекса GPU для аппаратного ускорения.\nИспользуется только для CUVID и DXVA2"
 
 msgctxt "IDS_CMD_RESET"
 msgid "/reset\t\tRestore default settings"
-msgstr ""
+msgstr "/reset⇥⇥Восстановить настройки по умолчанию"
 
 msgctxt "IDS_CMD_HELP"
 msgid "/help /h /?\tShow help about command line switches"
-msgstr ""
+msgstr "/help, /h, /? - Открыть окно помощи."
 
 msgctxt "IDS_PPAGEADVANCED_SCORE"
 msgid "Threshold value for subtitles score which are going to be automatically downloaded. Higher values means that more accurately matched subtitles will be loaded, lower values could result in incorrect subtitles being loaded, but there is no one perfect value. Pick one that works best for you."
-msgstr ""
+msgstr "Результаты субтитров, которые будут автоматически загружены. Более высокие результаты означают, что будут загружены более точные совпадения субтитров, более низкие результаты могут привести к неправильному отображению субтитров, но нет ничего совершенного. Выберите тот, который лучше подойдет для вас."
 
 msgctxt "IDS_PPAGE_FS_CLN_AUDIO_DELAY"
 msgid "Audio Delay (ms)"
-msgstr ""
+msgstr "Задержка звука (мс)"
 
 msgctxt "IDS_PPAGEADVANCED_DEFAULTTOOLBARSIZE"
 msgid "Size in pixels of the default toolbar."
-msgstr ""
+msgstr "Размер панели инструментов по умолчанию, в пикселях."
 
 msgctxt "IDS_PPAGEADVANCED_USE_LEGACY_TOOLBAR"
 msgid "Use legacy toolbar instead of new vectorized one."
-msgstr ""
+msgstr "Использовать старую панель инструментов вместо новой, векторной."
 

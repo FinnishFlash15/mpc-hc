@@ -1,14 +1,14 @@
 # MPC-HC - Strings extracted from string tables
-# Copyright (C) 2002 - 2016 see Authors.txt
+# Copyright (C) 2002 - 2017 see Authors.txt
 # This file is distributed under the same license as the MPC-HC package.
 # Translators:
 # A S Alam <apreet.alam@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MPC-HC\n"
-"POT-Creation-Date: 2016-05-28 19:41:21+0000\n"
-"PO-Revision-Date: 2016-06-30 12:12+0000\n"
-"Last-Translator: A S Alam <apreet.alam@gmail.com>\n"
+"POT-Creation-Date: 2016-10-17 00:35:36+0000\n"
+"PO-Revision-Date: 2016-12-02 01:18+0000\n"
+"Last-Translator: JellyFrog\n"
 "Language-Team: Panjabi (Punjabi) (http://www.transifex.com/mpc-hc/mpc-hc/language/pa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3592,6 +3592,10 @@ msgctxt "IDS_SUBTITLE_RENDERER_XY_SUB_FILTER"
 msgid "XySubFilter"
 msgstr ""
 
+msgctxt "IDS_SUBTITLE_RENDERER_ASS_FILTER"
+msgid "AssFilter"
+msgstr ""
+
 msgctxt "IDS_SUBDL_DLG_PROVIDER_COL"
 msgid "Provider"
 msgstr ""
@@ -3738,7 +3742,7 @@ msgstr " [%s] \"%s\" ਡਾਊਨਲੋਡ ਕੀਤੇ"
 
 msgctxt "IDS_SUBUL_DLG_TITLE"
 msgid "Upload subtitles"
-msgstr ""
+msgstr "ਸਬ-ਟਾਈਟਲ ਅੱਪਲੋਡ ਕਰੋ"
 
 msgctxt "IDS_SUBUL_DLG_CONFIRM"
 msgid "Are you sure you want to upload the subtitle file \"%s\"?"
@@ -3789,7 +3793,7 @@ msgid "/dvdpos T#C\tStart playback at title T, chapter C"
 msgstr ""
 
 msgctxt "IDS_CMD_DVDPOS_TIME"
-msgid "/dvdpos T#hh:mm:ss\tStart playback at title T, position hh:mm:ss"
+msgid "/dvdpos T#P\tStart playback at title T, position P (hh:mm:ss)"
 msgstr ""
 
 msgctxt "IDS_CMD_CD"

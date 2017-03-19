@@ -1,14 +1,14 @@
 # MPC-HC - Strings extracted from string tables
-# Copyright (C) 2002 - 2016 see Authors.txt
+# Copyright (C) 2002 - 2017 see Authors.txt
 # This file is distributed under the same license as the MPC-HC package.
 # Translators:
 # Asakura, 2016
-# ever_green, 2014-2016
+# ever_green, 2014-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MPC-HC\n"
-"POT-Creation-Date: 2016-05-28 19:41:21+0000\n"
-"PO-Revision-Date: 2016-06-13 02:12+0000\n"
+"POT-Creation-Date: 2016-10-17 00:35:36+0000\n"
+"PO-Revision-Date: 2017-02-12 08:40+0000\n"
 "Last-Translator: ever_green\n"
 "Language-Team: Japanese (http://www.transifex.com/mpc-hc/mpc-hc/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -127,23 +127,23 @@ msgstr "レンダリング ターゲットが定義されていない場合、SS
 
 msgctxt "IDS_PLAYLOOPMODE_PLAYLIST"
 msgid "Repeat Mode: Playlist"
-msgstr "繰り返しモード: 再生リスト"
+msgstr "連続再生モード: 再生リスト"
 
 msgctxt "IDS_PLAYLOOPMODE_FILE"
 msgid "Repeat Mode: File"
-msgstr "繰り返しモード: ファイル"
+msgstr "連続再生モード: ファイル"
 
 msgctxt "IDS_PLAYLOOP_FOREVER_ON"
 msgid "Repeat Forever: On"
-msgstr "連続再生: オン"
+msgstr "連続再生(無限): オン"
 
 msgctxt "IDS_PLAYLOOP_FOREVER_OFF"
 msgid "Repeat Forever: Off"
-msgstr "連続再生: オフ"
+msgstr "連続再生(無限): オフ"
 
 msgctxt "IDS_PLAYLOOP_FOREVER"
 msgid "Repeat Forever"
-msgstr "連続再生"
+msgstr "連続再生(無限)"
 
 msgctxt "IDS_PPAGE_CAPTURE_FG0"
 msgid "Never (fastest approach)"
@@ -295,7 +295,7 @@ msgstr "開けません。無効な入力パラメータです"
 
 msgctxt "IDS_EDIT_LIST_EDITOR"
 msgid "Edit List Editor"
-msgstr "編集リストエディタ"
+msgstr "編集リスト エディタ"
 
 msgctxt "IDS_GOTO_ERROR_INVALID_TIME"
 msgid "The entered time is greater than the file duration."
@@ -315,7 +315,7 @@ msgstr "言語"
 
 msgctxt "IDS_SUBDL_DLG_FORMAT_COL"
 msgid "Format"
-msgstr "ファイル形式"
+msgstr "形式"
 
 msgctxt "IDS_SUBDL_DLG_DISC_COL"
 msgid "Disc"
@@ -475,7 +475,7 @@ msgstr "字幕"
 
 msgctxt "IDD_PPAGEFORMATS"
 msgid "Player::Formats"
-msgstr "プレーヤー::ファイル形式"
+msgstr "プレーヤー::形式"
 
 msgctxt "IDD_PPAGETWEAKS"
 msgid "Tweaks"
@@ -579,7 +579,7 @@ msgstr "madVR"
 
 msgctxt "IDD_PPAGEACCELTBL"
 msgid "Player::Keys"
-msgstr "プレーヤー::キーバインド"
+msgstr "プレーヤー::キー"
 
 msgctxt "IDD_PPAGESUBSTYLE"
 msgid "Subtitles::Default Style"
@@ -987,11 +987,11 @@ msgstr "EDL 新しいクリップ"
 
 msgctxt "IDS_RECENT_FILES_CLEAR"
 msgid "&Clear list"
-msgstr "リストをクリア(&C)"
+msgstr "一覧をクリア(&C)"
 
 msgctxt "IDS_RECENT_FILES_QUESTION"
 msgid "Are you sure that you want to delete recent files list?"
-msgstr "最近使ったファイルのリストを削除してもよろしいですか？"
+msgstr "最近使ったファイルの一覧を削除してもよろしいですか？"
 
 msgctxt "IDS_AG_EDL_SAVE"
 msgid "EDL save"
@@ -1015,7 +1015,7 @@ msgstr "EDL 終了点を設定"
 
 msgctxt "IDS_AG_PNS_ROTATEX_M"
 msgid "PnS Rotate X-"
-msgstr "PnS: 回転 X- (下回転)"
+msgstr "PnS: 回転 X- (上下反転)"
 
 msgctxt "IDS_AG_PNS_ROTATEY_P"
 msgid "PnS Rotate Y+"
@@ -1023,7 +1023,7 @@ msgstr "PnS: 回転 Y+ (左回転)"
 
 msgctxt "IDS_AG_PNS_ROTATEY_M"
 msgid "PnS Rotate Y-"
-msgstr "PnS: 回転 Y- (右回転)"
+msgstr "PnS: 回転 Y- (左右反転)"
 
 msgctxt "IDS_AG_PNS_ROTATEZ_P"
 msgid "PnS Rotate Z+"
@@ -1031,7 +1031,7 @@ msgstr "PnS: 回転 Z+ (反時計回り)"
 
 msgctxt "IDS_AG_PNS_ROTATEZ_M"
 msgid "PnS Rotate Z-"
-msgstr "PnS: 回転 Z- (時計回り)"
+msgstr "PnS: 回転 Z- (90度反時計回り)"
 
 msgctxt "IDS_AG_TEARING_TEST"
 msgid "Tearing Test"
@@ -1367,7 +1367,7 @@ msgstr "すべて削除"
 
 msgctxt "IDS_REMOVE_CHANNELS_QUESTION"
 msgid "Are you sure you want to remove all channels from the list?"
-msgstr "リストからすべてのチャンネルを削除してもよろしいですか？"
+msgstr "一覧からすべてのチャンネルを削除してもよろしいですか？"
 
 msgctxt "IDS_MEDIAINFO_NO_INFO_AVAILABLE"
 msgid "No information available"
@@ -1535,15 +1535,15 @@ msgstr "MPC-HC の初期化中に問題が発生しました。 DVD の再生が
 
 msgctxt "IDS_PPAGEFULLSCREEN_SHOWNEVER"
 msgid "Never show"
-msgstr "表示しない"
+msgstr "常に表示しない"
 
 msgctxt "IDS_PPAGEFULLSCREEN_SHOWMOVED"
 msgid "Show when moving the cursor, hide after:"
-msgstr "カーソルを移動している時は表示する。　隠すまでの時間:"
+msgstr "カーソルを移動している時は表示する。　表示時間:"
 
 msgctxt "IDS_PPAGEFULLSCREEN_SHOHHOVERED"
 msgid "Show when hovering control, hide after:"
-msgstr "コントロールをホバリングしている時は表示する。　隠すまでの時間:"
+msgstr "コントロールをホバリングしている時は表示する。　表示時間:"
 
 msgctxt "IDS_MAINFRM_PRE_SHADERS_FAILED"
 msgid "Failed to set pre-resize shaders"
@@ -1587,7 +1587,7 @@ msgstr "設定をリセット"
 
 msgctxt "IDS_RESET_SETTINGS_WARNING"
 msgid "Are you sure you want to restore MPC-HC to its default settings?\nBe warned that ALL your current settings will be lost!"
-msgstr "MPC-HC を既定の設定に復元してもよろしいですか？\n現在のすべての設定は失われますのでご注意ください！"
+msgstr "MPC-HC を既定の設定に復元してもよろしいですか？\n現在の設定がすべて失われるので注意してください！"
 
 msgctxt "IDS_RESET_SETTINGS_MUTEX"
 msgid "Please close all instances of MPC-HC so that the default settings can be restored."
@@ -1631,35 +1631,35 @@ msgstr "音声の遅延 -10 ミリ秒"
 
 msgctxt "IDS_MPLAYERC_23"
 msgid "Jump Forward (small)"
-msgstr "前方にジャンプ (小)"
+msgstr "順方向にジャンプ (小)"
 
 msgctxt "IDS_MPLAYERC_24"
 msgid "Jump Backward (small)"
-msgstr "後方にジャンプ (小)"
+msgstr "逆方向にジャンプ (小)"
 
 msgctxt "IDS_MPLAYERC_25"
 msgid "Jump Forward (medium)"
-msgstr "前方にジャンプ (中)"
+msgstr "順方向にジャンプ (中)"
 
 msgctxt "IDS_MPLAYERC_26"
 msgid "Jump Backward (medium)"
-msgstr "後方にジャンプ (中)"
+msgstr "逆方向にジャンプ (中)"
 
 msgctxt "IDS_MPLAYERC_27"
 msgid "Jump Forward (large)"
-msgstr "前方にジャンプ (大)"
+msgstr "順方向にジャンプ (大)"
 
 msgctxt "IDS_MPLAYERC_28"
 msgid "Jump Backward (large)"
-msgstr "後方にジャンプ (大)"
+msgstr "逆方向にジャンプ (大)"
 
 msgctxt "IDS_MPLAYERC_29"
 msgid "Jump Forward (keyframe)"
-msgstr "前方にジャンプ (キーフレーム)"
+msgstr "順方向にジャンプ (キーフレーム)"
 
 msgctxt "IDS_MPLAYERC_30"
 msgid "Jump Backward (keyframe)"
-msgstr "後方にジャンプ (キーフレーム)"
+msgstr "逆方向にジャンプ (キーフレーム)"
 
 msgctxt "IDS_AG_NEXT"
 msgid "Next"
@@ -1815,7 +1815,7 @@ msgstr "ダウンロード中 [%s] \"%s\""
 
 msgctxt "IDS_SUBDL_DLG_PARSING"
 msgid "Parsing list..."
-msgstr "リストを解析中..."
+msgstr "一覧を解析中..."
 
 msgctxt "IDS_SUBDL_DLG_NOT_FOUND"
 msgid "No subtitles found."
@@ -2099,7 +2099,7 @@ msgstr "TV 局"
 
 msgctxt "IDS_DVB_CHANNEL_FORMAT"
 msgid "Format"
-msgstr "ファイル形式"
+msgstr "形式"
 
 msgctxt "IDS_MAINFRM_2"
 msgid "Focus lost to: %s - %s"
@@ -2543,7 +2543,7 @@ msgstr "MPC-HC Direct3D フルスクリーン"
 
 msgctxt "IDS_MAINFRM_137"
 msgid "Unknown format"
-msgstr "不明なファイル形式"
+msgstr "不明な形式"
 
 msgctxt "IDS_MAINFRM_138"
 msgid "Sub shift: %ld ms"
@@ -2619,15 +2619,15 @@ msgstr "次の縦横比のプリセット"
 
 msgctxt "IDS_AG_VIDFRM_STRETCH"
 msgid "VidFrm Stretch"
-msgstr "VidFrm: ウィンドウ サイズに変形"
+msgstr "VidFrm: ウィンドウの大きさに広げる"
 
 msgctxt "IDS_AG_VIDFRM_INSIDE"
 msgid "VidFrm Inside"
-msgstr "VidFrm: ウィンドウ サイズに合わせる"
+msgstr "VidFrm: ウィンドウに内接させる"
 
 msgctxt "IDS_AG_VIDFRM_OUTSIDE"
 msgid "VidFrm Outside"
-msgstr "VidFrm: 縦か横に合わせてカット"
+msgstr "VidFrm: ウィンドウに外接させる"
 
 msgctxt "IDS_AG_PNS_RESET"
 msgid "PnS Reset"
@@ -2663,11 +2663,11 @@ msgstr "現在のフォルダにはもうメディアファイルがありませ
 
 msgctxt "IDS_FIRST_IN_FOLDER"
 msgid "The first file of the folder is already loaded."
-msgstr "フォルダ内の最初のファイルが、すでに読み込まれています。"
+msgstr "フォルダ内の最初のファイルが既に読み込まれています。"
 
 msgctxt "IDS_LAST_IN_FOLDER"
 msgid "The last file of the folder is already loaded."
-msgstr "フォルダ内の最後のファイルが、すでに読み込まれています。"
+msgstr "フォルダ内の最後のファイルが既に読み込まれています。"
 
 msgctxt "IDS_FRONT_LEFT"
 msgid "Front Left"
@@ -2799,11 +2799,11 @@ msgstr "すべてのビデオ デコーダを無効にする"
 
 msgctxt "IDS_STRETCH_TO_WINDOW"
 msgid "Stretch To Window"
-msgstr "ウィンドウ サイズに変形"
+msgstr "ウィンドウの大きさに広げる"
 
 msgctxt "IDS_TOUCH_WINDOW_FROM_INSIDE"
 msgid "Touch Window From Inside"
-msgstr "ウィンドウ サイズに合わせる"
+msgstr "ウィンドウに内接させる"
 
 msgctxt "IDS_ZOOM1"
 msgid "Zoom 1"
@@ -2815,7 +2815,7 @@ msgstr "拡大 2"
 
 msgctxt "IDS_TOUCH_WINDOW_FROM_OUTSIDE"
 msgid "Touch Window From Outside"
-msgstr "縦か横に合わせてカット"
+msgstr "ウィンドウに外接させる"
 
 msgctxt "IDS_AUDIO_STREAM"
 msgid "Audio: %s"
@@ -3099,31 +3099,31 @@ msgstr "入力タイプ: SDTV PAL"
 
 msgctxt "IDS_OSD_RS_AMBIENT_LIGHT_BRIGHT"
 msgid "Ambient Light: Bright (2.2 Gamma)"
-msgstr "アンビエント ライト: 明るい (ガンマ 2.2)"
+msgstr "環境光: 明るい (ガンマ 2.2)"
 
 msgctxt "IDS_OSD_RS_AMBIENT_LIGHT_DIM"
 msgid "Ambient Light: Dim (2.35 Gamma)"
-msgstr "アンビエント ライト: 薄暗い (ガンマ 2.35)"
+msgstr "環境光: 薄暗い (ガンマ 2.35)"
 
 msgctxt "IDS_OSD_RS_AMBIENT_LIGHT_DARK"
 msgid "Ambient Light: Dark (2.4 Gamma)"
-msgstr "アンビエント ライト: 暗い (ガンマ 2.4)"
+msgstr "環境光: 暗い (ガンマ 2.4)"
 
 msgctxt "IDS_OSD_RS_REND_INTENT_PERCEPT"
 msgid "Rendering Intent: Perceptual"
-msgstr "色空間変換の方法: 知覚的"
+msgstr "レンダリングの目的: 知覚的"
 
 msgctxt "IDS_OSD_RS_REND_INTENT_RELATIVE"
 msgid "Rendering Intent: Relative Colorimetric"
-msgstr "色空間変換の方法: 相対的な色域を維持"
+msgstr "レンダリングの目的: 相対カラーメトリック"
 
 msgctxt "IDS_OSD_RS_REND_INTENT_SATUR"
 msgid "Rendering Intent: Saturation"
-msgstr "色空間変換の方法: 彩度"
+msgstr "レンダリングの目的: 彩度"
 
 msgctxt "IDS_OSD_RS_REND_INTENT_ABSOLUTE"
 msgid "Rendering Intent: Absolute Colorimetric"
-msgstr "色空間変換の方法: 絶対的な色域を維持"
+msgstr "レンダリングの目的: 絶対カラーメトリック"
 
 msgctxt "IDS_OSD_RS_OUTPUT_RANGE"
 msgid "Output Range: %s"
@@ -3463,7 +3463,7 @@ msgstr "正しい時間の形式は [-]hh:mm:ss.ms です。 (例: 01:23:45.678)
 
 msgctxt "IDS_EXTERNAL_FILTERS_ERROR_MT"
 msgid "This type is already in the list!"
-msgstr "このタイプは既にリストに存在します！"
+msgstr "このタイプは既に一覧にあります！"
 
 msgctxt "IDS_WEBSERVER_ERROR_TEST"
 msgid "You need to apply the new settings before testing them."
@@ -3567,15 +3567,15 @@ msgstr "「直前のキーフレーム」を選択した場合、実際のシー
 
 msgctxt "IDC_ASSOCIATE_ALL_FORMATS"
 msgid "Associate with all formats"
-msgstr "すべてのファイル形式に関連付けます"
+msgstr "すべての形式に関連付けます"
 
 msgctxt "IDC_ASSOCIATE_VIDEO_FORMATS"
 msgid "Associate with video formats only"
-msgstr "ビデオ ファイル形式にのみ関連付けます"
+msgstr "ビデオ形式にのみ関連付けます"
 
 msgctxt "IDC_ASSOCIATE_AUDIO_FORMATS"
 msgid "Associate with audio formats only"
-msgstr "オーディオ ファイル形式にのみ関連付けます"
+msgstr "オーディオ形式にのみ関連付けます"
 
 msgctxt "IDC_CLEAR_ALL_ASSOCIATIONS"
 msgid "Clear all associations"
@@ -3592,6 +3592,10 @@ msgstr "VSFilter / DirectVobSub"
 msgctxt "IDS_SUBTITLE_RENDERER_XY_SUB_FILTER"
 msgid "XySubFilter"
 msgstr "XySubFilter"
+
+msgctxt "IDS_SUBTITLE_RENDERER_ASS_FILTER"
+msgid "AssFilter"
+msgstr ""
 
 msgctxt "IDS_SUBDL_DLG_PROVIDER_COL"
 msgid "Provider"
@@ -3790,8 +3794,8 @@ msgid "/dvdpos T#C\tStart playback at title T, chapter C"
 msgstr "/dvdpos T#C\tタイトル T のチャプター C から再生を開始する"
 
 msgctxt "IDS_CMD_DVDPOS_TIME"
-msgid "/dvdpos T#hh:mm:ss\tStart playback at title T, position hh:mm:ss"
-msgstr "/dvdpos T#hh:mm:ss\tタイトル T の hh:mm:ss の位置から再生を開始する"
+msgid "/dvdpos T#P\tStart playback at title T, position P (hh:mm:ss)"
+msgstr "/dvdpos T#P\tタイトル T の位置 P (hh:mm:ss) から再生を開始する"
 
 msgctxt "IDS_CMD_CD"
 msgid "/cd\t\tLoad all the tracks of an Audio CD or (S)VCD,\n\t\t\"pathname\" means the drive path (optional)"
@@ -3911,7 +3915,7 @@ msgstr "/pns \"name\"\t使用するパン＆スキャンのプリセット名を
 
 msgctxt "IDS_CMD_ICONASSOC"
 msgid "/iconsassoc\tReassociate format icons"
-msgstr "/iconsassoc\tファイル形式のアイコンを再度関連付ける"
+msgstr "/iconsassoc\t形式アイコンを再度関連付ける"
 
 msgctxt "IDS_CMD_NOFOCUS"
 msgid "/nofocus\t\tOpen MPC-HC in background"
@@ -3959,5 +3963,5 @@ msgstr "既定のツール バーのサイズ (ピクセル単位) です。"
 
 msgctxt "IDS_PPAGEADVANCED_USE_LEGACY_TOOLBAR"
 msgid "Use legacy toolbar instead of new vectorized one."
-msgstr ""
+msgstr "ベクター化された新しいツール バーの代わりに古いものを使用します。"
 

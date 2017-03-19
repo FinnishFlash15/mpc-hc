@@ -1,11 +1,11 @@
 # MPC-HC - Strings extracted from menus
-# Copyright (C) 2002 - 2016 see Authors.txt
+# Copyright (C) 2002 - 2017 see Authors.txt
 # This file is distributed under the same license as the MPC-HC package.
 # Translators:
 # Rancher, 2014
 # Rancher, 2016
-# vBm <the.vbm@gmail.com>, 2014
-# Zlatan Vasović <legospace9876@gmail.com>, 2014
+# Goran Džaferi <the.vbm@gmail.com>, 2014
+# Zlatan Vasović <inactive+ZDroid@transifex.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MPC-HC\n"

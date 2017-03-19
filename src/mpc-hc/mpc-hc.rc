@@ -182,7 +182,7 @@ FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
     ICON            "",IDR_MAINFRAME,14,10,48,48
     LTEXT           "",IDC_STATIC1,60,8,200,8
-    CONTROL         "Copyright © 2002-2016 see Authors.txt",IDC_AUTHORS_LINK,
+    CONTROL         "Copyright © 2002-2017 see Authors.txt",IDC_AUTHORS_LINK,
                     "SysLink",WS_TABSTOP,60,20,200,8
     CONTROL         "",IDC_HOMEPAGE_LINK,"SysLink",WS_TABSTOP,60,32,200,8
     LTEXT           "This program is freeware and released under the GNU General Public License.",IDC_STATIC,7,46,246,18
@@ -3550,6 +3550,7 @@ STRINGTABLE
 BEGIN
     IDS_SUBTITLE_RENDERER_VS_FILTER "VSFilter / DirectVobSub"
     IDS_SUBTITLE_RENDERER_XY_SUB_FILTER "XySubFilter"
+    IDS_SUBTITLE_RENDERER_ASS_FILTER "AssFilter"
     IDS_SUBDL_DLG_PROVIDER_COL "Provider"
     IDS_SUBDL_DLG_HI_COL    "Hearing Impaired"
     IDS_SUBDL_DLG_DOWNLOADS_COL "Downloads"
@@ -3614,7 +3615,7 @@ BEGIN
     IDS_CMD_FILTER          "/filter ""filtername""\tLoad DirectShow filters from a dynamic link library (wildcards allowed)"
     IDS_CMD_DVD             "/dvd\t\tRun in DVD mode, ""pathname"" means the DVD folder (optional)"
     IDS_CMD_DVDPOS_TC       "/dvdpos T#C\tStart playback at title T, chapter C"
-    IDS_CMD_DVDPOS_TIME     "/dvdpos T#hh:mm:ss\tStart playback at title T, position hh:mm:ss"
+    IDS_CMD_DVDPOS_TIME     "/dvdpos T#P\tStart playback at title T, position P (hh:mm:ss)"
     IDS_CMD_CD              "/cd\t\tLoad all the tracks of an Audio CD or (S)VCD,\n\t\t""pathname"" means the drive path (optional)"
     IDS_CMD_DEVICE          "/device\t\tOpen the default video device"
     IDS_CMD_OPEN            "/open\t\tOpen the file, don't automatically start playback"

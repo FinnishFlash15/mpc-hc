@@ -1,5 +1,5 @@
 # MPC-HC - Strings extracted from dialogs
-# Copyright (C) 2002 - 2016 see Authors.txt
+# Copyright (C) 2002 - 2017 see Authors.txt
 # This file is distributed under the same license as the MPC-HC package.
 # Translators:
 # bruce55 <bruce.luo+transifex@nyu.edu>, 2014-2015
@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MPC-HC\n"
 "POT-Creation-Date: 2016-04-11 21:52:56+0000\n"
-"PO-Revision-Date: 2016-04-12 12:48+0000\n"
+"PO-Revision-Date: 2016-10-20 12:51+0000\n"
 "Last-Translator: Dean Lee <xslidian@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/mpc-hc/mpc-hc/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -192,8 +192,8 @@ msgid "About"
 msgstr "关于"
 
 msgctxt "IDD_ABOUTBOX_IDC_AUTHORS_LINK"
-msgid "Copyright © 2002-2016 see Authors.txt"
-msgstr "版权所有 © 2002-2016 请查看 Authors.txt"
+msgid "Copyright © 2002-2017 see Authors.txt"
+msgstr "版权所有 © 2002-2017 请查看 Authors.txt"
 
 msgctxt "IDD_ABOUTBOX_IDC_STATIC"
 msgid "This program is freeware and released under the GNU General Public License."

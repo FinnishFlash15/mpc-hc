@@ -1,14 +1,14 @@
 # MPC-HC - Strings extracted from string tables
-# Copyright (C) 2002 - 2016 see Authors.txt
+# Copyright (C) 2002 - 2017 see Authors.txt
 # This file is distributed under the same license as the MPC-HC package.
 # Translators:
 # Jan Košata <kosata6@seznam.cz>, 2014
-# khagaroth, 2013-2016
+# khagaroth, 2013-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MPC-HC\n"
-"POT-Creation-Date: 2016-05-28 19:41:21+0000\n"
-"PO-Revision-Date: 2016-06-06 17:36+0000\n"
+"POT-Creation-Date: 2016-10-17 00:35:36+0000\n"
+"PO-Revision-Date: 2017-01-28 11:34+0000\n"
 "Last-Translator: khagaroth\n"
 "Language-Team: Czech (http://www.transifex.com/mpc-hc/mpc-hc/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -3593,6 +3593,10 @@ msgctxt "IDS_SUBTITLE_RENDERER_XY_SUB_FILTER"
 msgid "XySubFilter"
 msgstr "XySubFilter"
 
+msgctxt "IDS_SUBTITLE_RENDERER_ASS_FILTER"
+msgid "AssFilter"
+msgstr ""
+
 msgctxt "IDS_SUBDL_DLG_PROVIDER_COL"
 msgid "Provider"
 msgstr "Poskytovatel"
@@ -3790,8 +3794,8 @@ msgid "/dvdpos T#C\tStart playback at title T, chapter C"
 msgstr "/dvdpos T#K\tSpustí přehrávání titulu T, kapitoly K"
 
 msgctxt "IDS_CMD_DVDPOS_TIME"
-msgid "/dvdpos T#hh:mm:ss\tStart playback at title T, position hh:mm:ss"
-msgstr "/dvdpos T#hh:mm:ss\tSpustí přehrávání titulu T, pozice hh:mm:ss"
+msgid "/dvdpos T#P\tStart playback at title T, position P (hh:mm:ss)"
+msgstr "/dvdpos T#P\tSpustit přehrávání titulu T od pozice P (hh:mm:ss)"
 
 msgctxt "IDS_CMD_CD"
 msgid "/cd\t\tLoad all the tracks of an Audio CD or (S)VCD,\n\t\t\"pathname\" means the drive path (optional)"
@@ -3855,7 +3859,7 @@ msgstr "/new\t\tOtevře novou instanci MPC-HC"
 
 msgctxt "IDS_CMD_ADD"
 msgid "/add\t\tAdd \"pathname\" to playlist, can be combined with /open and /play"
-msgstr "/add\t\tPřidá \"cestu\" do playlistu, může být kombinován\n\t\ts /open a /play"
+msgstr "/add\t\tPřidá \"cestu\" do seznamu stop, může být kombinován\n\t\ts /open a /play"
 
 msgctxt "IDS_CMD_RANDOMIZE"
 msgid "/randomize\tRandomize the playlist"
@@ -3959,5 +3963,5 @@ msgstr "Velikost výchozího panelu nástrojů v pixelech."
 
 msgctxt "IDS_PPAGEADVANCED_USE_LEGACY_TOOLBAR"
 msgid "Use legacy toolbar instead of new vectorized one."
-msgstr ""
+msgstr "Použít starý panel nástrojů místo nového vektorového."
 

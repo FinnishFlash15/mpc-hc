@@ -1,5 +1,5 @@
 # MPC-HC - Strings extracted from dialogs
-# Copyright (C) 2002 - 2016 see Authors.txt
+# Copyright (C) 2002 - 2017 see Authors.txt
 # This file is distributed under the same license as the MPC-HC package.
 # Translators:
 # Matti Ylönen <maanylon@gmail.com>, 2016
@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MPC-HC\n"
 "POT-Creation-Date: 2016-04-11 21:52:56+0000\n"
-"PO-Revision-Date: 2016-04-12 08:14+0000\n"
-"Last-Translator: JellyFrog\n"
+"PO-Revision-Date: 2016-07-06 21:36+0000\n"
+"Last-Translator: kasper93\n"
 "Language-Team: Finnish (http://www.transifex.com/mpc-hc/mpc-hc/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -193,8 +193,8 @@ msgid "About"
 msgstr "Tietoja"
 
 msgctxt "IDD_ABOUTBOX_IDC_AUTHORS_LINK"
-msgid "Copyright © 2002-2016 see Authors.txt"
-msgstr "Tekijänoikeudet © 2002-2016 katso Authors.txt"
+msgid "Copyright © 2002-2017 see Authors.txt"
+msgstr "Tekijänoikeudet © 2002-2017 katso Authors.txt"
 
 msgctxt "IDD_ABOUTBOX_IDC_STATIC"
 msgid "This program is freeware and released under the GNU General Public License."
